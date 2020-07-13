@@ -1,5 +1,7 @@
 # Explanation of Portfolio
 
+#### This version has been superceded by the html version
+
 #### What the portfolio is supposed to do
 
 #### By Alan Wickham. Version 29/06/2020
