@@ -27,7 +27,7 @@
         <p style="text-align: center;">What the portfolio is supposed to do</p>
       </div>
        
-        <p>Alan Wickham. Version 13/02/2021</p>
+        <p>Alan Wickham. Version 11/04/2021</p>
         <h3>Context</h2>
         <p>I'm looking for a career change, so I'm following the Epicodus boot
           camp online.  As I go I'll learn new
@@ -44,45 +44,39 @@
             I will learn later in the course.
 
           At the point this project was started I had learned about HTML and Bootstrap,
-           and some Javascript but not arrays and loops.</p>
+           and some Javascript but not arrays and loops, nor anything to do with node.</p>
         
            <h3>Product Backlog</h3>
-           <p> Last updated 13th February 2020</p>
+           <p> Last updated 11th April 2021</p>
            <p>Product owner's priority is demonstrating capability to code, not to produce a perfect game</p>  
    
            <ul>
-             <li>Package Racecar game using NPM including the use of import and export functions / 3 story points</li>
-             <li>Refactor all functions and ensure variables are appropriately glocal or local / 8 story point   Started</li>
-             <li style="padding-left: 18px;"><span style="padding-left: 18px;">Refactor functions in car selector / 3 story points</span></li>
-             <li><del>Make the card flip work through the shuffled stack of cards, rather than each card is random / 5 story point </del> Done </li>
-             <li><del>Change BigWheelCorvette to a model that is longer than it is wide / 1 story point</del> Done</li>
-             <li><span>Remove "Are you ready" alert that stops cardflip from 
-              malfunctioning / </span><del>55</del>   8 story point</span></li>
-             <li>Shuffle icons on track / 8 story points</li>
-             <li>Capture track shape as a vector, build track as a data, then turn data into HTML / 144 story points</li>
-             <li>Correct size of yellow racecar card / 1 story point</li>
-             <li>Give players a choice of how many laps the race will last and alert the winner / 2story points</li>
-             <li>Remove alert asking player if they have missed an earlier racecar / 0.5 story points</li>
-             <li>Package whole Portfolio using NPM / 3 story points</li>
+            <li>Package whole Portfolio using NPM / 3 story points</li>
+            <li>Refactor all functions and ensure variables are appropriately glocal or local / 8 story point   Started(maybe only 2 story points left)</li> 
+            <li>Shuffle icons on track / <span><del>8</del></span> / 2 story points</li>
+            <li>Capture track shape as a vector, build track as a data, then turn data into HTML / 144 story points</li>
+            <li>Correct size of <span><del>yellow racecar card </del></span> all icons especially the racecars and align correctly on the stack/ <span><del> 1 </del></span> / 3 story point</li>
+            <li>Give players a choice of how many laps the race will last and alert the winner / 2story points</li>
+            <li>Remove alert asking player if they have missed an earlier racecar / 0.5 story points</li>
+            <li><del>Package Racecar game using NPM including the use of import and export functions / 3 story points</del>(Took a good 8 story points but covered off other features as well)</li>
+            <li style="padding-left: 18px;"><span style="padding-left: 18px;"><del>Refactor functions in car selector / 3 story points</del></span></li>
+            <li><del>Make the card flip work through the shuffled stack of cards, rather than each card is random / 5 story point </del> Done </li>
+            <li><del>Change BigWheelCorvette to a model that is longer than it is wide / 1 story point</del> Done</li>
+            <li><span><del>Remove "Are you ready" alert that stops cardflip from 
+            malfunctioning / 55   8 story point</del>Done</li>
+             
+             
+             
            </ul>
    
            <h3> Event Bubbling</h3>
-           Event bubbling prevents the card flip from working unless there is a break.  The "Are you 
-           ready" alert provides this break. In a similar way, there is a problem 
-           with removing the vehicle when both cars are on the same spot, and this 
-           is fixed by always removing the class from the shared spot positions, 
-           irrespective of the number of cars on the spot.  These fixes are pretty 
-           ugly.  Having learned about event bubbling they will be addressed in a future 
-           refactoring project.
+           Event bubbling caused an issue with the card flip that has been fixed with a time delay
 
 
            <h3>Grid</h3>
            I wanted to build in the flexibility to place icons in different places in 
            future versions. At that point I didn't have the tool to properly isolate 
-           the icon, so each icon had a black or grey edge of colour that would blend 
-           with the background colour, as long as the icon was placed in exactly the right place. 
-           If I do a project to randomly place icons on the track I will address the isolation of 
-           the image icons then.<br>
+           the icon, but that has now been addressed.<br>
     
            I quickly found out that Bootstrap grid is fine for big blocks, but hopeless 
            for the level detail needed to turn a photograph of a floor mat into an onscreen 
@@ -119,10 +113,7 @@
          
              
            <h3>Known Bugs</h3> 
-           The "do you want to block repeated alerts" message on the alerts is 
-           probably a setting somewhere that I will find at some point.
-           It isn't possible to run web developer tools until the page is properly 
-           loaded due to errors in the Bootstrap library.
+           Clicking on a racecar still prompts the "have you missed an earlier" error.
            <br><br>
            <p>Copyright (c) 2021 Alan Wickham</p>
            
